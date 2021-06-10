@@ -16,8 +16,6 @@ int main(int argc, char* argv[])
     Drawer drawer(window, renderer); 
     drawer.clear();
     drawer.update();
-
-    test_avg_angle(&drawer);
     
     /* =====================LOOP=================== */
     while (!quit) {
